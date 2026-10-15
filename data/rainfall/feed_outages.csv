@@ -1,0 +1,2 @@
+zone_id,start,end,reason
+Z5,2025-06-05,2025-06-14,SIMULATED feed outage injected for testing gap handling. The real CHIRPS values for these days exist in chirps_daily_2025.csv but are masked at load time.

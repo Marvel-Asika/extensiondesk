@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "label": "Server contract cases (no model, deterministic)",
+    "model": null,
+    "finished_at": "2026-10-13T22:28:41+00:00",
+    "python": "3.13.16",
+    "platform": "linux"
+  },
+  "results": [
+    {
+      "id": "S01",
+      "layer": "server",
+      "title": "Draft with an unsourced reason is rejected",
+      "pass": true,
+      "detail": "Reason 'Rains are good' has no source. Every claim needs a source ID.; 'plant' must cite the rainfall signal for C03 on 2025-06-20 (call get_rainfall_signal).; 'plant' for maize must cite CAL:maize (f"
+    },
+    {
+      "id": "S02",
+      "layer": "server",
+      "title": "Draft citing a source no tool returned is rejected",
+      "pass": true,
+      "detail": "Source 'NIMET:2025-06' was never returned by a tool. Cite only source IDs returned by tools.; 'plant' must cite the rainfall signal for C03 on 2025-06-20 (call get_rainfall_signal).; 'plant' for maize"
+    },
+    {
+      "id": "S03",
+      "layer": "server",
+      "title": "'plant' is rejected when the rainfall verdict is insufficient_data (C09, feed gap)",
+      "pass": true,
+      "detail": "verdict=insufficient_data, missing_days=10"
+    },
+    {
+      "id": "S04",
+      "layer": "server",
+      "title": "'plant' is rejected outside the crop's planting window (cowpea on 20 June)",
+      "pass": true,
+      "detail": "2025-06-20 is outside the planting window for cowpea (07-01 to 08-10)."
+    },
+    {
+      "id": "S05",
+      "layer": "server",
+      "title": "A valid draft cannot be released before an officer decides",
+      "pass": true,
+      "detail": "draft=DRAFT-0001, release=rejected"
+    },
+    {
+      "id": "S06",
+      "layer": "server",
+      "title": "The decision tool refuses a non-human approver name",
+      "pass": true,
+      "detail": "A real officer name is required to record a decision."
+    },
+    {
+      "id": "S07",
+      "layer": "server",
+      "title": "Duplicate farmer ID is flagged and excluded from SMS recipients (C03)",
+      "pass": true,
+      "detail": "flagged=['HH051']"
+    },
+    {
+      "id": "S08",
+      "layer": "server",
+      "title": "Messy register rows are flagged, not silently fixed (GPS, misspelt crop, acres, bad date)",
+      "pass": true,
+      "detail": "4 issues flagged"
+    },
+    {
+      "id": "S09",
+      "layer": "server",
+      "title": "Cluster with no rainfall feed returns insufficient_data, not a guess (C10, zone Z6)",
+      "pass": true,
+      "detail": "No rainfall feed exists for zone Z6. Advice cannot be based on rainfall here."
+    },
+    {
+      "id": "S10",
+      "layer": "server",
+      "title": "Feed gap is detected and reported with the missing dates (C09, zone Z5)",
+      "pass": true,
+      "detail": "missing=['2025-06-05', '2025-06-06', '2025-06-07', '2025-06-08', '2025-06-09', '2025-06-10', '2025-06-11', '2025-06-12', '2025-06-13', '2025-06-14']"
+    },
+    {
+      "id": "S11",
+      "layer": "server",
+      "title": "Approved draft releases once; a second release is refused",
+      "pass": true,
+      "detail": "first=ok, second=rejected"
+    },
+    {
+      "id": "S12",
+      "layer": "server",
+      "title": "Evidence from another zone is rejected (Z4 pest alert cited for a Z2 cluster)",
+      "pass": true,
+      "detail": "PEST:PA-2025-019 is a pest alert for zone Z4, not Z2."
+    },
+    {
+      "id": "S13",
+      "layer": "server",
+      "title": "Hausa-preferring households receive the advisory in Hausa",
+      "pass": false,
+      "detail": "2 of 3 recipients prefer Hausa; outbox marks them 'Hausa version needed'"
+    },
+    {
+      "id": "S14",
+      "layer": "server",
+      "title": "Every tool call is logged with timestamp, inputs and output; gated calls name the approver",
+      "pass": true,
+      "detail": "22 calls logged, 5 gated calls"
+    }
+  ]
+}

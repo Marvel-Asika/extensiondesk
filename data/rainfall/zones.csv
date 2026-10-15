@@ -1,0 +1,6 @@
+zone_id,label,centroid_lat,centroid_lon,box_half_width_deg,note
+Z1,Ikara central,11.17,8.23,0.03,Area-average CHIRPS over a 0.06 x 0.06 degree box
+Z2,Ikara north-west,11.25,8.15,0.03,Area-average CHIRPS over a 0.06 x 0.06 degree box
+Z3,Ikara south-east,11.10,8.30,0.03,Area-average CHIRPS over a 0.06 x 0.06 degree box
+Z4,Ikara east,11.22,8.35,0.03,Area-average CHIRPS over a 0.06 x 0.06 degree box
+Z5,Ikara south-west,11.05,8.17,0.03,Area-average CHIRPS over a 0.06 x 0.06 degree box

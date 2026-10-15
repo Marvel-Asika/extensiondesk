@@ -1,0 +1,4 @@
+alert_id,zone_id,reported_on,pest,crop,severity,detail,origin
+PA-2025-014,Z2,2025-06-16,fall armyworm,maize,moderate,Larvae in whorls on 3 of 10 scouted plots,"SYNTHETIC, modelled on a ward scouting report"
+PA-2025-019,Z4,2025-07-08,fall armyworm,maize,high,Window-pane damage on 6 of 10 scouted plots,"SYNTHETIC, modelled on a ward scouting report"
+PA-2025-021,Z3,2025-07-10,stem borer,sorghum,low,Dead hearts on 1 of 10 scouted plots,"SYNTHETIC, modelled on a ward scouting report"

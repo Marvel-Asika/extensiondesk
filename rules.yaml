@@ -1,0 +1,35 @@
+# ExtensionDesk decision rules.
+# Every threshold the agent relies on lives here, not in code, so an extension
+# office (or a judge) can change a rule without touching Python.
+
+season_start: "05-01"        # MM-DD. Rainfall before this date is ignored for onset.
+rain_day_mm: 1.0             # a day with less than this counts as dry
+
+onset:                       # agronomic onset of rains (Sivakumar-style, adapted)
+  window_days: 3             # rain over this many consecutive days ...
+  min_total_mm: 20           # ... must reach at least this total
+  max_dry_spell_days: 7      # and no dry spell longer than this may follow it
+
+hold:
+  current_dry_spell_days: 7  # if it has been dry this long right now, hold planting
+
+anomaly:                     # 30-day rainfall compared with the 2010-2024 normal
+  window_days: 30
+  below_normal_pct: -25
+  above_normal_pct: 25
+
+data_gap:
+  max_missing_days: 2        # more missing days than this in the 30-day window => insufficient data
+
+pest:
+  lookback_days: 21          # pest alerts older than this are ignored
+
+advisory:
+  allowed_actions:
+    - plant                       # onset established, inside the crop window
+    - hold                        # wait: dry spell now, or onset not yet established
+    - scout_and_spray_check       # pest alert nearby: scout plots before any spraying
+    - no_advice_insufficient_data # the evidence is too thin to advise
+  sms_max_chars: 320
+  # actions that must be backed by a rainfall source the rules agree with
+  rainfall_backed_actions: [plant, hold]

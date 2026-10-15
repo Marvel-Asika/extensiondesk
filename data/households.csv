@@ -1,0 +1,52 @@
+household_id,farmer_id,head_name,cluster_id,village,plot_lat,plot_lon,crop,plot_size,planned_planting,phone,language
+HH001,F1001,Maryam Yakubu (synthetic),C01,Kurmi,11.17729,8.22888,sorghum,1.51 ha,6 Jun 2025,+234-000-000-0001,ha
+HH002,F1002,Usman Bello (synthetic),C01,Kurmi,11.16504,8.20717,maize,0.84 ha,25/06/2025,+234-000-000-0002,ha
+HH003,F1003,Abubakar Ibrahim (synthetic),C01,Kurmi,11.17269,8.20834,sorghum,2.02 ha,07/06/2025,+234-000-000-0003,en
+HH004,F1004,Hauwa Ibrahim (synthetic),C01,Kurmi,,,maize,0.82 ha,18 Jun 2025,+234-000-000-0004,ha
+HH005,F1005,Danjuma Lawal (synthetic),C01,Kurmi,11.15181,8.25345,maize,2.47 ha,03/06/2025,+234-000-000-0005,ha
+HH006,F1006,Bala Haruna (synthetic),C02,Tashan Iya,11.16121,8.22733,soybean,1.24 ha,29/06/2025,+234-000-000-0006,ha
+HH007,F1007,Hadiza Garba (synthetic),C02,Tashan Iya,11.18777,8.24699,soybean,0.88 ha,2025-06-26,+234-000-000-0007,ha
+HH008,F1008,Ibrahim Ali (synthetic),C02,Tashan Iya,11.14878,8.21234,maise,1.55 ha,2025-06-09,+234-000-000-0008,ha
+HH009,F1009,Abubakar Umar (synthetic),C02,Tashan Iya,11.16418,8.22217,sorghum,1.04 ha,8 Jun 2025,+234-000-000-0009,en
+HH010,F1010,Ibrahim Lawal (synthetic),C02,Tashan Iya,11.15528,8.21524,sorghum,1.73 ha,5 Jun 2025,+234-000-000-0010,ha
+HH011,F1011,Fatima Sule (synthetic),C03,Gidan Haki,11.24669,8.17177,maize,2.2 ha,2025-06-06,+234-000-000-0011,ha
+HH012,F1012,Fatima Haruna (synthetic),C03,Gidan Haki,11.24099,8.14317,sorghum,2.39 ha,13/06/2025,+234-000-000-0012,ha
+HH013,F1013,Fatima Ali (synthetic),C03,Gidan Haki,11.2505,8.13703,maize,1.06 ha,2025-06-14,+234-000-000-0013,ha
+HH014,F1014,Ibrahim Lawal (synthetic),C03,Gidan Haki,11.24878,8.13799,maize,2.48 ha,3 Jun 2025,+234-000-000-0014,en
+HH015,F1015,Fatima Haruna (synthetic),C03,Gidan Haki,11.25601,8.14586,sorghum,0.65 ha,2025-06-11,+234-000-000-0015,ha
+HH016,F1016,Bala Bello (synthetic),C04,Rafin Kada,11.24171,8.16194,soybean,1.77 ha,2025-06-30,+234-000-000-0016,ha
+HH017,F1017,Hauwa Haruna (synthetic),C04,Rafin Kada,,,maize,2.35 ha,1 Jun 2025,+234-000-000-0017,ha
+HH018,F1018,Aisha Yakubu (synthetic),C04,Rafin Kada,11.23627,8.13809,soybean,0.8 ha,23 Jun 2025,+234-000-000-0018,en
+HH019,F1019,Sani Idris (synthetic),C04,Rafin Kada,11.2392,8.1383,sorghum,0.82 ha,2025-06-11,+234-000-000-0019,ha
+HH020,F1020,Ibrahim Bello (synthetic),C04,Rafin Kada,11.25157,8.16604,maize,1.63 ha,23/06/2025,+234-000-000-0020,en
+HH021,F1021,Rakiya Idris (synthetic),C05,Unguwar Dutse,11.09588,8.32208,cowpea,3 acres,3 Jul 2025,+234-000-000-0021,ha
+HH022,F1022,Abubakar Garba (synthetic),C05,Unguwar Dutse,11.08767,8.29183,soybean,2.33 ha,26 Jun 2025,+234-000-000-0022,en
+HH023,F1023,Yusuf Lawal (synthetic),C05,Unguwar Dutse,11.08063,8.28788,cowpea,0.4 ha,2025-07-16,+234-000-000-0023,ha
+HH024,F1024,Aisha Garba (synthetic),C05,Unguwar Dutse,11.07533,8.31095,maize,1.78 ha,2025-06-10,+234-000-000-0024,ha
+HH025,F1025,Fatima Lawal (synthetic),C05,Unguwar Dutse,11.10735,8.31729,sorghum,1.69 ha,2025-06-05,+234-000-000-0025,en
+HH026,F1026,Hauwa Yakubu (synthetic),C06,Kofar Gabas,11.09849,8.28424,soybean,1.69 ha,2025-06-22,+234-000-000-0026,ha
+HH027,F1026,Ibrahim Yakubu (synthetic),C06,Kofar Gabas,11.08888,8.28854,maize,1.28 ha,2025-06-02,+234-000-000-0027,ha
+HH028,F1028,Abubakar Ali (synthetic),C06,Kofar Gabas,11.12009,8.28114,maize,1.01 ha,2025-06-16,+234-000-000-0028,ha
+HH029,F1029,Abubakar Garba (synthetic),C06,Kofar Gabas,11.09258,8.28241,maize,2.13 ha,2025-06-10,+234-000-000-0029,ha
+HH030,F1030,Ibrahim Bello (synthetic),C06,Kofar Gabas,11.08196,8.28269,sorghum,2.29 ha,25 Jun 2025,+234-000-000-0030,ha
+HH031,F1031,Yusuf Ibrahim (synthetic),C07,Dorayi,11.22792,8.35277,maize,0.63 ha,2025-06-22,+234-000-000-0031,ha
+HH032,F1032,Musa Haruna (synthetic),C07,Dorayi,11.23091,8.34981,maize,1.09 ha,2025-06-06,+234-000-000-0032,ha
+HH033,F1033,Danjuma Sule (synthetic),C07,Dorayi,11.21031,8.37417,sorghum,0.73 ha,after first rains,+234-000-000-0033,ha
+HH034,F1034,Aisha Sule (synthetic),C07,Dorayi,11.22836,8.37181,sorghum,0.8 ha,2025-06-21,+234-000-000-0034,ha
+HH035,F1035,Hauwa Yakubu (synthetic),C07,Dorayi,11.22189,8.3488,sorghum,1.38 ha,2025-06-14,+234-000-000-0035,en
+HH036,F1036,Yusuf Bello (synthetic),C08,Bakin Kogi,11.20097,8.33364,maize,1.72 ha,4 Jun 2025,+234-000-000-0036,ha
+HH037,F1037,Hadiza Sule (synthetic),C08,Bakin Kogi,11.20804,8.36692,sorghum,1.05 ha,2025-06-24,+234-000-000-0037,ha
+HH038,F1038,Aisha Sule (synthetic),C08,Bakin Kogi,,,sorghum,1.58 ha,2025-06-24,+234-000-000-0038,ha
+HH039,F1039,Hauwa Bello (synthetic),C08,Bakin Kogi,11.22651,8.3704,soybean,0.81 ha,23/06/2025,+234-000-000-0039,ha
+HH040,F1040,Ibrahim Ibrahim (synthetic),C08,Bakin Kogi,11.19757,8.35103,sorghum,2.11 ha,2025-06-21,+234-000-000-0040,ha
+HH041,F1041,Musa Garba (synthetic),C09,Tudun Wada,11.04668,8.15406,sorghum,0.65 ha,2025-06-16,+234-000-000-0041,ha
+HH042,F1042,Hauwa Yakubu (synthetic),C09,Tudun Wada,11.06982,8.15145,maize,0.7 ha,10/06/2025,+234-000-000-0042,en
+HH043,F1043,Sani Ali (synthetic),C09,Tudun Wada,11.03129,8.16052,sorghum,2.42 ha,6 Jun 2025,+234-000-000-0043,ha
+HH044,F1044,Fatima Garba (synthetic),C09,Tudun Wada,11.04034,8.16695,maize,1.58 ha,10/06/2025,+234-000-000-0044,ha
+HH045,F1045,Sani Ali (synthetic),C09,Tudun Wada,11.05892,8.19361,sorghum,2.22 ha,2025-06-02,+234-000-000-0045,ha
+HH046,F1046,Yusuf Sule (synthetic),C10,Sabon Layi,11.28195,8.2703,maize,2.11 ha,09/06/2025,+234-000-000-0046,ha
+HH047,F1047,Rakiya Bello (synthetic),C10,Sabon Layi,11.3161,8.28083,soybean,1.41 ha,2025-06-20,+234-000-000-0047,en
+HH048,F1048,Rakiya Umar (synthetic),C10,Sabon Layi,11.30095,8.28332,sorghum,1.82 ha,4 Jun 2025,+234-000-000-0048,ha
+HH049,F1049,Abubakar Umar (synthetic),C10,Sabon Layi,11.31741,8.26623,maize,1.82 ha,12/06/2025,+234-000-000-0049,ha
+HH050,F1050,Usman Yakubu (synthetic),C10,Sabon Layi,11.30423,8.28923,cowpea,1.69 ha,11 Jul 2025,+234-000-000-0050,en
+HH051,F1012,Fatima Haruna  (synthetic),C03,Gidan Haki,11.24099,8.14317,sorghum,2.39 ha,13/06/2025,+234-000-000-0012,ha
